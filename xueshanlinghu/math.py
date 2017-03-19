@@ -187,7 +187,7 @@ def bin(binlist, bin_size, bin_type = 0):
                 new_bin.append(binlist[i])
                 i = i + 1
             j = j + 1
-            print "bin" + str(j) + ":" + str(new_bin)
+            print("bin" + str(j) + ":" + str(new_bin))
     elif bin_type == 1:
         while i < lenlist:
             new_bin = []
@@ -198,7 +198,7 @@ def bin(binlist, bin_size, bin_type = 0):
             for each in range(bin_size):
                 new_bin[each] = avg
             j = j + 1
-            print "bin" + str(j) + ":" + str(new_bin)
+            print("bin" + str(j) + ":" + str(new_bin))
     elif bin_type == 2:
         while i < lenlist:
             new_bin = []
@@ -209,7 +209,7 @@ def bin(binlist, bin_size, bin_type = 0):
             for each in range(bin_size):
                 new_bin[each] = med
             j = j + 1
-            print "bin" + str(j) + ":" + str(new_bin)
+            print("bin" + str(j) + ":" + str(new_bin))
     elif bin_type == 3:
         while i < lenlist:
             new_bin = []
@@ -221,8 +221,8 @@ def bin(binlist, bin_size, bin_type = 0):
             for each in range(bin_size):
                 new_bin[each] = which_close(new_bin[each], min_new_bin, max_new_bin)
             j = j + 1
-            print "bin" + str(j) + ":" + str(new_bin)
-    bin_num = binlist // bin_size
+            print("bin" + str(j) + ":" + str(new_bin))
+    bin_num = lenlist // bin_size
     return "The amount of the bins are " + str(bin_num)
 
 def bin_equal_width(binlist, bin_num):
@@ -236,7 +236,6 @@ def bin_equal_width(binlist, bin_num):
     binlist.sort()
     max_binlist = max(binlist)
     bin_length = len(binlist)
-    # here to get the divide point
     num_now = max_binlist
     while num_now % bin_num != 0:
         num_now = num_now + 1
@@ -249,6 +248,8 @@ def bin_equal_width(binlist, bin_num):
         while j < bin_length:
             if binlist[j] >= (i - 1) * bin_size and binlist[j] < i * bin_size:
                 new_bin.append(binlist[j])
+            j = j + 1
         k = k + 1
-        print "bin" + str(j) + ":" + str(new_bin)
+        print("bin" + str(k) + ":" + str(new_bin))
+        i = i + 1
     return "The amount of the bins are " + str(bin_num)
