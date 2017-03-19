@@ -5,3 +5,4 @@ pypi.txt
 xueshanlinghu.egg-info/
 dist/
 build/
+MANIFEST.in
