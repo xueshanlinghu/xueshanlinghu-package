@@ -1,0 +1,6 @@
+*.bat
+*.pyc
+pypi.txt
+xueshanlinghu.egg-info/
+dist/
+build/
