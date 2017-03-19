@@ -16,7 +16,7 @@ NAME = "xueshanlinghu"
 
 PACKAGES = ["xueshanlinghu"]
 
-DESCRIPTION = "this is a package created by xueshanlinghu tutor."
+DESCRIPTION = "this is a package created by xueshanlinghu tutor. Now including math class."
 
 LONG_DESCRIPTION = read("README.rst")
 
@@ -28,7 +28,7 @@ AUTHOR_EMAIL = "xueshanlinghu@xueshanlinghu.com"
 
 URL = "https://github.com/xueshanlinghu/xueshanlinghu-package.git"
 
-VERSION = "1.2.0"
+VERSION = "1.2.1"
 
 LICENSE = "MIT"
 
