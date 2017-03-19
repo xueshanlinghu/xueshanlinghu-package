@@ -24,4 +24,4 @@ You can use this command to check which packages are outdated:
 
 If you want to upload the version of this package, you can use this command:
 
-    pip install -upgrade xueshanlinghu
+    pip install --upgrade xueshanlinghu

@@ -28,7 +28,7 @@ AUTHOR_EMAIL = "xueshanlinghu@xueshanlinghu.com"
 
 URL = "https://github.com/xueshanlinghu/xueshanlinghu-package.git"
 
-VERSION = "1.2.1"
+VERSION = "1.2.2"
 
 LICENSE = "MIT"
 
