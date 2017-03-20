@@ -1,1 +1,1 @@
-from math import *
+from xueshanlinghu.math import *
