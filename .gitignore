@@ -1,6 +1,5 @@
 *.bat
 *.pyc
-.pypirc
 pypi.txt
 xueshanlinghu.egg-info/
 dist/
