@@ -19,7 +19,7 @@ Using this command can install the xueshanlinghu package from the Internet.
 
 ### Download from PyPI or GitHub
 If you can't do that you can go to the website above to download.
-Then if you download from GitHub(that would be a zip file) or PyPI(that would be a tar.gz file), all you should do is to unzip it, then using CMD to come into the folder, type this command to setup:
+Then if you download from GitHub or PyPI, all you should do is to unzip it, then using CMD to come into the folder, type this command to setup:
 
     python setup.py install
 
